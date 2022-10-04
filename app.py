@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Fuck Programming. This shit is too hard"
+    return "Portfolio home page"
 
 if __name__ == '__main__':
     app.env = 'development'
